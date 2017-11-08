@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00CEF839D11929D9E478C387889DDB67 /* TYToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8393BCD67D7179B01748A55D085D03B9 /* TYToast.swift */; };
+		21497894E7D760DF06CE965866DF7A69 /* Pods-TYToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D4B8F7662D2D01D859068D29CBA40B /* Pods-TYToast_Example-dummy.m */; };
+		2292D3A6D215FBD35DCA69EA4D97C737 /* Pods-TYToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E8187EEA22C82BDEBF889328C467E3 /* Pods-TYToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		487A3FABDAB51E728BD560A6B9DCEC06 /* TYToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0210803A2E506732AE94015B7C0C3A1 /* TYToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D36D8A5915E31164623FFAEFD91611D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		97DE50E337C8902EFF57CC6552AEEF72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		C5BEDFB75C96FE723A3914C799DAABD0 /* Pods-TYToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C175A236FED8BF783BCCBB2484C7F2 /* Pods-TYToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD0146F29C80284EBA6DF6541EF3584D /* Pods-TYToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF87635EB96BDD217C595449FD5F743A /* Pods-TYToast_Tests-dummy.m */; };
+		EC9DA4C224B276F8434B38F5FCC77397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FB6F5C637A15D00A69D49E2FD5275DEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		FCD9DBE20993DD30550B9E9BF40AF39A /* TYToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A10894A6C2A3A2C88E5750C84A40C9 /* TYToast-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FA3FBBC533550E402706F645F56DBB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B15C6D7996A28B88E5B4F4AD82854CC;
+			remoteInfo = TYToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B0AAED5F45B3E25A3D7917744AF2B6 /* Pods-TYToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1667608265D1DF4904886B190DEABB86 /* Pods-TYToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B4D05FCA109CBAD82CDE40D7549FB07 /* Pods-TYToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYToast_Tests.modulemap"; sourceTree = "<group>"; };
+		1F484325C2254B91D77A6A21E2E393A5 /* TYToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYToast.framework; path = TYToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21830728DF26E695697861DFEB9EFE8E /* Pods-TYToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Example-resources.sh"; sourceTree = "<group>"; };
+		35E8187EEA22C82BDEBF889328C467E3 /* Pods-TYToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYToast_Example-umbrella.h"; sourceTree = "<group>"; };
+		38A8BFB3BE516A9F71CD41A6379047F3 /* Pods-TYToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3FDDCD893AC9A7125AB5C8504604EB22 /* Pods-TYToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		43A72FE921C76E779757D2ADEE1D3628 /* Pods-TYToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYToast_Example.modulemap"; sourceTree = "<group>"; };
+		49ED85A0E1011B89CEF6BA526A878367 /* Pods_TYToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYToast_Example.framework; path = "Pods-TYToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61C175A236FED8BF783BCCBB2484C7F2 /* Pods-TYToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYToast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		638B3810EE3672F8036D95E1BD38546E /* Pods-TYToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		768841894E65FBF5B8EBC4793887E1DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8393BCD67D7179B01748A55D085D03B9 /* TYToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYToast.swift; path = TYToast/Classes/TYToast.swift; sourceTree = "<group>"; };
+		87A10894A6C2A3A2C88E5750C84A40C9 /* TYToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYToast-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0210803A2E506732AE94015B7C0C3A1 /* TYToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYToast-umbrella.h"; sourceTree = "<group>"; };
+		A1271F093BB1795D1713F7A9CDDA71CF /* TYToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYToast.xcconfig; sourceTree = "<group>"; };
+		AD32A1C4E68C194411E3E23702EBB832 /* TYToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYToast-prefix.pch"; sourceTree = "<group>"; };
+		B0D54A29D208B555CCD0BFD8BD345BB2 /* Pods-TYToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C30DE01E833BB70243FD1D63AF085F4E /* Pods-TYToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C45FC14B7AA83350FF8CE0D70FAE574F /* Pods-TYToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D627A6C11F0C063142EDFFD0E15944E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DF87635EB96BDD217C595449FD5F743A /* Pods-TYToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		E05D5F7FE27F23A865F3B469F2EA2498 /* TYToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TYToast.modulemap; sourceTree = "<group>"; };
+		E8D485DBCF24C932DCAAFF9CCD10A3B2 /* Pods-TYToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3D4B8F7662D2D01D859068D29CBA40B /* Pods-TYToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYToast_Example-dummy.m"; sourceTree = "<group>"; };
+		F65D447A07D1AA304AD3EC3D99EC6DED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F68441947CDFDC3FCCB51F2D71D41C44 /* Pods-TYToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Tests-resources.sh"; sourceTree = "<group>"; };
+		F83CFDDE3E6B745DDC023A50343DDB16 /* Pods-TYToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC1B6EBFC34A603A985F163017C6AD36 /* Pods_TYToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYToast_Tests.framework; path = "Pods-TYToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53ED9CAAE066778342B02B75E76EE1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97DE50E337C8902EFF57CC6552AEEF72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EE9B52DFD781A28180F2BA24DE3952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6F5C637A15D00A69D49E2FD5275DEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28E0340DD44517496802F3491D94C9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9DA4C224B276F8434B38F5FCC77397 /* Foundation.framework in Frameworks */,
+				8D36D8A5915E31164623FFAEFD91611D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E17A0A75904E5F9A470D009E7544A7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4223A5018D9250473EFB8ABA21C66583 /* Pods-TYToast_Example */,
+				580F04A32893012961A02E8821766430 /* Pods-TYToast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		157B6D26295A237B5F960BBD852BAA0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49ED85A0E1011B89CEF6BA526A878367 /* Pods_TYToast_Example.framework */,
+				FC1B6EBFC34A603A985F163017C6AD36 /* Pods_TYToast_Tests.framework */,
+				1F484325C2254B91D77A6A21E2E393A5 /* TYToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F137E8A5A3F8285BEE96FAEEB0A4DE7 /* TYToast */ = {
+			isa = PBXGroup;
+			children = (
+				8393BCD67D7179B01748A55D085D03B9 /* TYToast.swift */,
+				AFEEDC3A8D49E4AECCB0CD65D12D5536 /* Support Files */,
+			);
+			name = TYToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4223A5018D9250473EFB8ABA21C66583 /* Pods-TYToast_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F65D447A07D1AA304AD3EC3D99EC6DED /* Info.plist */,
+				43A72FE921C76E779757D2ADEE1D3628 /* Pods-TYToast_Example.modulemap */,
+				07B0AAED5F45B3E25A3D7917744AF2B6 /* Pods-TYToast_Example-acknowledgements.markdown */,
+				F83CFDDE3E6B745DDC023A50343DDB16 /* Pods-TYToast_Example-acknowledgements.plist */,
+				F3D4B8F7662D2D01D859068D29CBA40B /* Pods-TYToast_Example-dummy.m */,
+				38A8BFB3BE516A9F71CD41A6379047F3 /* Pods-TYToast_Example-frameworks.sh */,
+				21830728DF26E695697861DFEB9EFE8E /* Pods-TYToast_Example-resources.sh */,
+				35E8187EEA22C82BDEBF889328C467E3 /* Pods-TYToast_Example-umbrella.h */,
+				1667608265D1DF4904886B190DEABB86 /* Pods-TYToast_Example.debug.xcconfig */,
+				B0D54A29D208B555CCD0BFD8BD345BB2 /* Pods-TYToast_Example.release.xcconfig */,
+			);
+			name = "Pods-TYToast_Example";
+			path = "Target Support Files/Pods-TYToast_Example";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		580F04A32893012961A02E8821766430 /* Pods-TYToast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D627A6C11F0C063142EDFFD0E15944E3 /* Info.plist */,
+				1B4D05FCA109CBAD82CDE40D7549FB07 /* Pods-TYToast_Tests.modulemap */,
+				638B3810EE3672F8036D95E1BD38546E /* Pods-TYToast_Tests-acknowledgements.markdown */,
+				3FDDCD893AC9A7125AB5C8504604EB22 /* Pods-TYToast_Tests-acknowledgements.plist */,
+				DF87635EB96BDD217C595449FD5F743A /* Pods-TYToast_Tests-dummy.m */,
+				C30DE01E833BB70243FD1D63AF085F4E /* Pods-TYToast_Tests-frameworks.sh */,
+				F68441947CDFDC3FCCB51F2D71D41C44 /* Pods-TYToast_Tests-resources.sh */,
+				61C175A236FED8BF783BCCBB2484C7F2 /* Pods-TYToast_Tests-umbrella.h */,
+				E8D485DBCF24C932DCAAFF9CCD10A3B2 /* Pods-TYToast_Tests.debug.xcconfig */,
+				C45FC14B7AA83350FF8CE0D70FAE574F /* Pods-TYToast_Tests.release.xcconfig */,
+			);
+			name = "Pods-TYToast_Tests";
+			path = "Target Support Files/Pods-TYToast_Tests";
+			sourceTree = "<group>";
+		};
+		735C41E14D95840FE3A8B37D38836787 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F137E8A5A3F8285BEE96FAEEB0A4DE7 /* TYToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				735C41E14D95840FE3A8B37D38836787 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				157B6D26295A237B5F960BBD852BAA0F /* Products */,
+				11E17A0A75904E5F9A470D009E7544A7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFEEDC3A8D49E4AECCB0CD65D12D5536 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				768841894E65FBF5B8EBC4793887E1DE /* Info.plist */,
+				E05D5F7FE27F23A865F3B469F2EA2498 /* TYToast.modulemap */,
+				A1271F093BB1795D1713F7A9CDDA71CF /* TYToast.xcconfig */,
+				87A10894A6C2A3A2C88E5750C84A40C9 /* TYToast-dummy.m */,
+				AD32A1C4E68C194411E3E23702EBB832 /* TYToast-prefix.pch */,
+				A0210803A2E506732AE94015B7C0C3A1 /* TYToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TYToast";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BF02EABD1B48F0FBB18A667ACCF19BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2292D3A6D215FBD35DCA69EA4D97C737 /* Pods-TYToast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D37DFC23A2A3B91A9A71F4626257A04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5BEDFB75C96FE723A3914C799DAABD0 /* Pods-TYToast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F486BF22F015138EDF20E29C79EE604B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487A3FABDAB51E728BD560A6B9DCEC06 /* TYToast-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B15C6D7996A28B88E5B4F4AD82854CC /* TYToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915A420567354033253FCE29234C8F92 /* Build configuration list for PBXNativeTarget "TYToast" */;
+			buildPhases = (
+				67CD77C5C0677D7FD47995DD85A5DDF0 /* Sources */,
+				B28E0340DD44517496802F3491D94C9E /* Frameworks */,
+				F486BF22F015138EDF20E29C79EE604B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYToast;
+			productName = TYToast;
+			productReference = 1F484325C2254B91D77A6A21E2E393A5 /* TYToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21D391AA71EE51BAF8799E25EBD9535E /* Pods-TYToast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BF99AA539466274CF0AA35EC0135C5 /* Build configuration list for PBXNativeTarget "Pods-TYToast_Example" */;
+			buildPhases = (
+				5CD4415D8DEFF6D805FAC4E5F788E05A /* Sources */,
+				A6EE9B52DFD781A28180F2BA24DE3952 /* Frameworks */,
+				3BF02EABD1B48F0FBB18A667ACCF19BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D604DEE250EFA68F89F82A1AEF2CB5B3 /* PBXTargetDependency */,
+			);
+			name = "Pods-TYToast_Example";
+			productName = "Pods-TYToast_Example";
+			productReference = 49ED85A0E1011B89CEF6BA526A878367 /* Pods_TYToast_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4F9D523E156CEA0FAEF4D57446EFA7AA /* Pods-TYToast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B23495D4B555D07CB5D2E51A73CA1A14 /* Build configuration list for PBXNativeTarget "Pods-TYToast_Tests" */;
+			buildPhases = (
+				5C85532CA4345A474689DFCC2737E487 /* Sources */,
+				53ED9CAAE066778342B02B75E76EE1C8 /* Frameworks */,
+				5D37DFC23A2A3B91A9A71F4626257A04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TYToast_Tests";
+			productName = "Pods-TYToast_Tests";
+			productReference = FC1B6EBFC34A603A985F163017C6AD36 /* Pods_TYToast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 157B6D26295A237B5F960BBD852BAA0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D391AA71EE51BAF8799E25EBD9535E /* Pods-TYToast_Example */,
+				4F9D523E156CEA0FAEF4D57446EFA7AA /* Pods-TYToast_Tests */,
+				1B15C6D7996A28B88E5B4F4AD82854CC /* TYToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C85532CA4345A474689DFCC2737E487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0146F29C80284EBA6DF6541EF3584D /* Pods-TYToast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD4415D8DEFF6D805FAC4E5F788E05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21497894E7D760DF06CE965866DF7A69 /* Pods-TYToast_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67CD77C5C0677D7FD47995DD85A5DDF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD9DBE20993DD30550B9E9BF40AF39A /* TYToast-dummy.m in Sources */,
+				00CEF839D11929D9E478C387889DDB67 /* TYToast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D604DEE250EFA68F89F82A1AEF2CB5B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TYToast;
+			target = 1B15C6D7996A28B88E5B4F4AD82854CC /* TYToast */;
+			targetProxy = 5FA3FBBC533550E402706F645F56DBB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		347B6899656E9DCDB14678F4A81D668E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D485DBCF24C932DCAAFF9CCD10A3B2 /* Pods-TYToast_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYToast_Tests/Pods-TYToast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		43CBEFEECBEF002C5B4AD13BF1213710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45FC14B7AA83350FF8CE0D70FAE574F /* Pods-TYToast_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYToast_Tests/Pods-TYToast_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5B91451C4EE3BCE9A0BC20F334384186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1271F093BB1795D1713F7A9CDDA71CF /* TYToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYToast/TYToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYToast/TYToast.modulemap";
+				PRODUCT_NAME = TYToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EDDA8DA8F86EC9F2D9C74A17F107313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1271F093BB1795D1713F7A9CDDA71CF /* TYToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYToast/TYToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYToast/TYToast.modulemap";
+				PRODUCT_NAME = TYToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A12E0BA27DA8D0479AC6954626BA63D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0D54A29D208B555CCD0BFD8BD345BB2 /* Pods-TYToast_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYToast_Example/Pods-TYToast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C2DB4C5A88C3BEF01D19EA839DADBCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1667608265D1DF4904886B190DEABB86 /* Pods-TYToast_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TYToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TYToast_Example/Pods-TYToast_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TYToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BF99AA539466274CF0AA35EC0135C5 /* Build configuration list for PBXNativeTarget "Pods-TYToast_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2DB4C5A88C3BEF01D19EA839DADBCDF /* Debug */,
+				9A12E0BA27DA8D0479AC6954626BA63D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915A420567354033253FCE29234C8F92 /* Build configuration list for PBXNativeTarget "TYToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDDA8DA8F86EC9F2D9C74A17F107313 /* Debug */,
+				5B91451C4EE3BCE9A0BC20F334384186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B23495D4B555D07CB5D2E51A73CA1A14 /* Build configuration list for PBXNativeTarget "Pods-TYToast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347B6899656E9DCDB14678F4A81D668E /* Debug */,
+				43CBEFEECBEF002C5B4AD13BF1213710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

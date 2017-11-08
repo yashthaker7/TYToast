@@ -1,0 +1,6 @@
+framework module TYToast {
+  umbrella header "TYToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

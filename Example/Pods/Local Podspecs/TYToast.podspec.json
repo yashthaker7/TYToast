@@ -1,0 +1,23 @@
+{
+  "name": "TYToast",
+  "version": "0.1.0",
+  "summary": "TYToast is an swift category that adds toast notifications to the UIView object class.",
+  "description": "TYToast is intended to be simple, lightweight, and easy to use. Most toast notifications can be triggered with a single line of code.",
+  "homepage": "https://github.com/yashthaker7/TYToast",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yashthaker7": "yashthaker7@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/yashthaker7/TYToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TYToast/Classes/**/*",
+  "frameworks": "UIKit"
+}

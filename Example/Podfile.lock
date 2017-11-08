@@ -1,0 +1,16 @@
+PODS:
+  - TYToast (0.1.0)
+
+DEPENDENCIES:
+  - TYToast (from `../`)
+
+EXTERNAL SOURCES:
+  TYToast:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TYToast: 3d18d94bab625428989435fd15f15861ccc4c3a1
+
+PODFILE CHECKSUM: ba75a39952c1def72ccaa607e2f2331c00f14c9e
+
+COCOAPODS: 1.4.0.beta.1
