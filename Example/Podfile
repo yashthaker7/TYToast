@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TYToast_Example' do
+  pod 'TYToast', :path => '../'
+
+  target 'TYToast_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
