@@ -1,15 +1,13 @@
 TYToast-Swift
 =============
 
-
-[![CI Status](http://img.shields.io/travis/yashthaker7/TYToast.svg?style=flat)](https://travis-ci.org/yashthaker7/TYToast)
-[![Version](https://img.shields.io/cocoapods/v/TYToast.svg?style=flat)](http://cocoapods.org/pods/TYToast)
-[![License](https://img.shields.io/cocoapods/l/TYToast.svg?style=flat)](http://cocoapods.org/pods/TYToast)
-[![Platform](https://img.shields.io/cocoapods/p/TYToast.svg?style=flat)](http://cocoapods.org/pods/TYToast)
-
+<!---->
+<!--[![CI Status](http://img.shields.io/travis/yashthaker7/TYToast.svg?style=flat)](https://travis-ci.org/yashthaker7/TYToast)-->
+<!--[![Version](https://img.shields.io/cocoapods/v/TYToast.svg?style=flat)](http://cocoapods.org/pods/TYToast)-->
+<!--[![License](https://img.shields.io/cocoapods/l/TYToast.svg?style=flat)](http://cocoapods.org/pods/TYToast)-->
+<!--[![Platform](https://img.shields.io/cocoapods/p/TYToast.svg?style=flat)](http://cocoapods.org/pods/TYToast)-->
 
 TYToast is an swift category that adds toast notifications to the UIView object class. It is intended to be simple, lightweight, and easy to use. Most toast notifications can be triggered with a single line of code.
-
 
 Examples
 ---------
