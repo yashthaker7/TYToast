@@ -20,8 +20,6 @@ self.view.makeToast(message: "This is a piece of toast", position: .bottom)
 
 Setup Instructions
 ------------------
-[CocoaPods](http://cocoapods.org)
-------------------
 To integrate TYToast into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ``` ruby
