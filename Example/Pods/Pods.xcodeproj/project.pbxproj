@@ -33,20 +33,20 @@
 /* Begin PBXFileReference section */
 		07B0AAED5F45B3E25A3D7917744AF2B6 /* Pods-TYToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1667608265D1DF4904886B190DEABB86 /* Pods-TYToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1B4D05FCA109CBAD82CDE40D7549FB07 /* Pods-TYToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYToast_Tests.modulemap"; sourceTree = "<group>"; };
-		1F484325C2254B91D77A6A21E2E393A5 /* TYToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYToast.framework; path = TYToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B4D05FCA109CBAD82CDE40D7549FB07 /* Pods-TYToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TYToast_Tests.modulemap"; sourceTree = "<group>"; };
+		1F484325C2254B91D77A6A21E2E393A5 /* TYToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TYToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21830728DF26E695697861DFEB9EFE8E /* Pods-TYToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Example-resources.sh"; sourceTree = "<group>"; };
 		35E8187EEA22C82BDEBF889328C467E3 /* Pods-TYToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYToast_Example-umbrella.h"; sourceTree = "<group>"; };
 		38A8BFB3BE516A9F71CD41A6379047F3 /* Pods-TYToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Example-frameworks.sh"; sourceTree = "<group>"; };
 		3FDDCD893AC9A7125AB5C8504604EB22 /* Pods-TYToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		43A72FE921C76E779757D2ADEE1D3628 /* Pods-TYToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TYToast_Example.modulemap"; sourceTree = "<group>"; };
-		49ED85A0E1011B89CEF6BA526A878367 /* Pods_TYToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYToast_Example.framework; path = "Pods-TYToast_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A72FE921C76E779757D2ADEE1D3628 /* Pods-TYToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TYToast_Example.modulemap"; sourceTree = "<group>"; };
+		49ED85A0E1011B89CEF6BA526A878367 /* Pods_TYToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C175A236FED8BF783BCCBB2484C7F2 /* Pods-TYToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TYToast_Tests-umbrella.h"; sourceTree = "<group>"; };
 		638B3810EE3672F8036D95E1BD38546E /* Pods-TYToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TYToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		768841894E65FBF5B8EBC4793887E1DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8393BCD67D7179B01748A55D085D03B9 /* TYToast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TYToast.swift; path = TYToast/Classes/TYToast.swift; sourceTree = "<group>"; };
 		87A10894A6C2A3A2C88E5750C84A40C9 /* TYToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYToast-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0210803A2E506732AE94015B7C0C3A1 /* TYToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYToast-umbrella.h"; sourceTree = "<group>"; };
 		A1271F093BB1795D1713F7A9CDDA71CF /* TYToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYToast.xcconfig; sourceTree = "<group>"; };
 		AD32A1C4E68C194411E3E23702EBB832 /* TYToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYToast-prefix.pch"; sourceTree = "<group>"; };
@@ -57,13 +57,13 @@
 		D627A6C11F0C063142EDFFD0E15944E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF87635EB96BDD217C595449FD5F743A /* Pods-TYToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYToast_Tests-dummy.m"; sourceTree = "<group>"; };
-		E05D5F7FE27F23A865F3B469F2EA2498 /* TYToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TYToast.modulemap; sourceTree = "<group>"; };
+		E05D5F7FE27F23A865F3B469F2EA2498 /* TYToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TYToast.modulemap; sourceTree = "<group>"; };
 		E8D485DBCF24C932DCAAFF9CCD10A3B2 /* Pods-TYToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TYToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3D4B8F7662D2D01D859068D29CBA40B /* Pods-TYToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TYToast_Example-dummy.m"; sourceTree = "<group>"; };
 		F65D447A07D1AA304AD3EC3D99EC6DED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F68441947CDFDC3FCCB51F2D71D41C44 /* Pods-TYToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TYToast_Tests-resources.sh"; sourceTree = "<group>"; };
 		F83CFDDE3E6B745DDC023A50343DDB16 /* Pods-TYToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TYToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC1B6EBFC34A603A985F163017C6AD36 /* Pods_TYToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TYToast_Tests.framework; path = "Pods-TYToast_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1B6EBFC34A603A985F163017C6AD36 /* Pods_TYToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -554,7 +554,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TYToast/TYToast-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TYToast/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TYToast/TYToast.modulemap";
 				PRODUCT_NAME = TYToast;
@@ -586,7 +586,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/TYToast/TYToast-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TYToast/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/TYToast/TYToast.modulemap";
 				PRODUCT_NAME = TYToast;
