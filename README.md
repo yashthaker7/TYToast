@@ -14,6 +14,9 @@ Examples
 ```Swift
 // basic usage
 self.view.makeToast(message: "This is a piece of toast", position: .bottom)
+
+// show Activity indicator
+self.view.showToastActivity()
 ```
 
 Setup Instructions
